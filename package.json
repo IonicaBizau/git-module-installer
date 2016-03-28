@@ -1,0 +1,26 @@
+{
+  "name": "git-module-installer",
+  "version": "1.0.0",
+  "description": "Clone git repositories and install their npm dependencies.",
+  "main": "lib/index.js",
+  "directories": {
+    "example": "example"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/git-module-installer.git"
+  },
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/git-module-installer/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/git-module-installer#readme",
+  "dependencies": {
+    "git-cloner": "^1.0.0",
+    "spawn-npm": "^1.1.0"
+  }
+}
