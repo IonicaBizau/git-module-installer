@@ -1,6 +1,6 @@
 {
   "name": "git-module-installer",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Clone git repositories and install their npm dependencies.",
   "main": "lib/index.js",
   "directories": {
@@ -27,6 +27,7 @@
     "bin/",
     "app/",
     "lib/",
+    "build/",
     "dist/",
     "src/",
     "resources/",
