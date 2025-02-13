@@ -1,6 +1,6 @@
 {
   "name": "git-module-installer",
-  "version": "1.0.10",
+  "version": "1.0.11",
   "description": "Clone git repositories and install their npm dependencies.",
   "main": "lib/index.js",
   "directories": {
@@ -34,6 +34,8 @@
     "menu/",
     "cli.js",
     "index.js",
+    "index.d.ts",
+    "package-lock.json",
     "bloggify.js",
     "bloggify.json",
     "bloggify/"
